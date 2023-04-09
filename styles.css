@@ -7,43 +7,51 @@ div {
 }
 
 
-.birthweight {
+#birthweight {
+    border: 5px solid;
     grid-area: birthweight;
     background-color: yellow;
 }
 
 
 #uac {
+    border: 5px solid;
     grid-area: uac;
     background-color: yellow;
 }
 
 #uvc {
+    border: 5px solid;
     grid-area: uvc;
     background-color: yellow;
 }
 
 #ett-size {
+    border: 5px solid;
     grid-area: ettsize;
     background-color: yellow;
 }
 
 #ett-insertion {
+    border: 5px solid;
     grid-area: ettinsertion;
     background-color: yellow;
 }
 
 #epinephrine {
+    border: 5px solid;
     grid-area: epinephrine;
     background-color: yellow;
 }
 
 #mkd {
+    border: 5px solid;
     grid-area: mkd;
     background-color: yellow;
 }
 
 #ettnotes {
+    border: 5px solid;
     grid-area: ettnotes;
     background-color: yellow;
 }
