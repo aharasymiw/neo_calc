@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>"
+    <script src="scripts.js" charset="utf-8"></script>
+    <title>Dr. Dr. Lauren's Neo Birth Weight Calculator</title>
+</head>
+
+<body class="grid">
+
+    <div>
+        <h2>Birth Weight (kg): </h2>
+        <form>
+            <input id="weight" type="number" step="0.001" max="5" placeholder="0.000 kg" />
+            <button id="calculate">Calculate</button>
+        </form>
+    </div>
+
+
+    <div id="uac">
+        <h3>UAC Length (cm): </h3>
+        <p id="uac-value">-</p>
+    </div>
+
+    <div id="uvc">
+        <h3>UVC Length (cm): </h3>
+        <p id="uvc-value">-</p>
+    </div>
+
+    <div id="ett-size">
+        <h3>ETT Size (mm): </h3>
+        <p id="ett-size-value">-</p>
+    </div>
+
+    <div id="ett-insertion">
+        <h3>ETT Insertion (cm): </h3>
+        <p id="ett-insertion-value">-</p>
+    </div>
+
+    <div id="epinephrine">
+        <h3>Epinephrine</h3>
+
+        <p>Epinephrine Concentration: 0.1 mg/mL = 1 mg / 10 mL</p>
+        <p>IV/ID = 0.02 mg/kg (0.2 mL/kg)</p>
+        <p>
+            <span id="iv-value">
+                -
+            </span>
+            mg,
+            <span id="id-value">
+                -
+            </span>
+            ml
+        </p>
+
+        <p>Epi note</p>
+        <p> Range: 0.01 to 0.03 mg/kg (equal to 0.1 to 0.3 mL/kg)</p>
+
+        <p>ET = 0.1 mg/kg (1 ml/kg) </p>
+        <p>
+            <span id="et-mg-value">
+                -
+            </span>
+            mg,
+            <span id="et-ml-value">
+                -
+            </span>
+            ml
+        </p>
+
+        <p>ET note</p>
+        <p>Range: 0.05 to 0.1 mg/kg (equal to 0.5 to 1 mL/kg)</p>
+    </div>
+
+    <div id="mkd">
+        <div>
+            <h3>60 mkd</h3>
+            <p id="mkd-sixty-value">-</p>
+        </div>
+
+        <div>
+            <h3>80 mkd</h3>
+            <p id="mkd-eighty-value">-</p>
+        </div>
+
+        <div>
+            <h3>100 mkd</h3>
+            <p id="mkd-hundred-value">-</p>
+        </div>
+    </div>
+
+
+    <div id="ettnotes">
+        <p>ETT size = GA / 10</p>
+        <p>ETT Insertion = weight in kg(s) + 6</p>
+    </div>
+
+    <footer>
+        <button id="reset-button">Reset</button>
+    </footer>
+</body>
+
+</html>

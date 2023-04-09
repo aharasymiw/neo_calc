@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+}
+
+
+.birthweight {
+    grid-area: birthweight;
+    background-color: yellow;
+}
+
+
+#uac {
+    grid-area: uac;
+    background-color: yellow;
+}
+
+#uvc {
+    grid-area: uvc;
+    background-color: yellow;
+}
+
+#ett-size {
+    grid-area: ettsize;
+    background-color: yellow;
+}
+
+#ett-insertion {
+    grid-area: ettinsertion;
+    background-color: yellow;
+}
+
+#epinephrine {
+    grid-area: epinephrine;
+    background-color: yellow;
+}
+
+#mkd {
+    grid-area: mkd;
+    background-color: yellow;
+}
+
+#ettnotes {
+    grid-area: ettnotes;
+    background-color: yellow;
+}
+
+footer {
+    grid-area: footer;
+    justify-self: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        ".  birthweight   birthweight   ."
+        "uac  uvc  ettsize  ettinsertion "
+        "epinephrine   epinephrine   mkd    ettnotes   "
+        "footer footer footer footer";
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.hidden {
+    display: none;
+}
